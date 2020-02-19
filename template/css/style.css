@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+}
+
+html, body, .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("/template/images/backgraund/back.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+/ / фиксирует_бэк
+}
+
+#wrapper {
+    width: auto;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 25px;
+    margin-left: 25px;
+    height: 70px;
+    width: auto;
+    color: #0d0e1b;
+    font-size: 20px;
+}
+
+.header_content {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.content {
+    width: auto;
+    margin-right: 250px;
+
+}
+
+.content_controller div {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.content_controller {
+    background-color: #cccccc;
+    margin-left: 30px;
+    padding: 15px;
+    opacity: 0.9;
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+.content_controller img {
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.content_single_view {
+    background-color: #cccccc;
+    margin-left: 30px;
+    padding: 15px;
+    opacity: 0.9;
+    min-height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.content_single_view img {
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.content_controller_product {
+    background-color: #cccccc;
+    margin-left: 30px;
+    padding: 15px;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 250px;
+    width: 300px;
+    display: inline-block;
+}
+
+.content_controller_product img {
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 230px;
+    width: 270px;
+}
+
+.content_single_view_product {
+    background-color: #cccccc;
+    margin-left: 30px;
+    padding: 15px;
+    opacity: 0.9;
+    min-height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.content_single_view_product img {
+    /*width: 400px;*/
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sitebar {
+    width: 250px;
+    float: right;
+}
+
+.sitebar_form {
+    background-color: #cccccc;
+    margin: 0 20px;
+    padding: 15px;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.sitebar_header {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.siteber_content {
+    font-size: 19px;
+}
+
+.siteber_content p {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.siteber_content p:hover {
+    background-color: #fafafa;
+}
+
+.style_button_bay {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.style_button_bay:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.style_button_bay:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+a:visited {
+    color: #0d0e1b;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a {
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #fafafa;
+}
+
+.header a:hover {
+    color: #fba303;
+    border-bottom: 1px solid #fba303;
+    transition: all .6s ease;
+}
+
+.sitebar_subcontent {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+.reg_form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.reg_form input {
+    width: 500px;
+    font-size: 20px;
+}
+
+.reg_form input:focus {
+    border: 1px solid #0d0e1b;
+}
+
+.reg_form div {
+    padding-bottom: 25px;
+}
+
+.reg_form button {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*/////////////////////////////////////////*/
+#form {
+    display: block;
+    margin-bottom: 185px;
+    margin-top: 185px;
+    overflow: hidden;
+}
+
+.login-form {
+
+}
+
+.signup-form {
+
+}
+
+.login-form h2, .signup-form h2 {
+    color: #202226;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #cccccc;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+
+.login-form form input, .signup-form form input {
+    background: #F0F0E9;
+    border: medium none;
+    color: #696763;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+    border: #696763 solid 1px;
+    border-radius: 5px;
+}
+
+.login-form form span{
+    line-height: 25px;
+}
+
+.login-form form span input {
+    width: 15px;
+    float: left;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.login-form form button {
+    margin-top: 23px;
+}
+
+.login-form label{
+
+}
+
+
+.login-form label input {
+    border: medium none;
+    display: inline-block;
+    height: 0;
+    margin-bottom: 0;
+    outline: medium none;
+    padding-left: 0;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+.content_controller_user{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+.signup-form-errors {
+    color: #202226;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px auto;
+    padding: 15px;
+    padding-left: 30px;
+    background-color: #cccccc;
+    border-radius: 15px;
+    width: 500px;
+}
+
+.signup-form-errors li {
+    margin-bottom: 5px;
+}
+
+
+
